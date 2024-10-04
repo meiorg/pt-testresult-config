@@ -5,7 +5,12 @@ version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   version: "5e1479c8-7dc2-40ed-b28a-b898d7ef7b88"
-  
+
+  # MQ service
+  services:
+    - type: mqcloud
+      name: <mq MQ-c3-mei-dev></mq>
+    
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.
