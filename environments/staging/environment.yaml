@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: "fa87ac6d-cf63-442b-924a-336fc369c845"
+  version: "24510819-64f5-42db-acd6-56ef5c5909f0"
 
   # MQ service
   services:
