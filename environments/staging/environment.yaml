@@ -9,7 +9,7 @@ app:
   # MQ service
   services:
     - type: mqcloud
-      name: <mq MQ-c3-mei-dev></mq>
+      name: MQ-c3-mei-dev
     
   # number of instances
   instances:
