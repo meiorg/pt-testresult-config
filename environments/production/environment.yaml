@@ -32,3 +32,11 @@ app:
   variables:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
+    - name: mqManagerName
+      value: "meiQueMgr"
+    - name: mqHostName  
+      value: "meiquemgr-9906.qm.us-south.mq.appdomain.cloud"
+    - name: mqPort
+      value: "32439"
+    - name: mqAppUserName
+      value: "easemquser1"
